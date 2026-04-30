@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
+=======
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 # official-website
 数据知识产权公司 GitHub 官网仓库名
@@ -94,6 +97,12 @@ npm run lint
 
 MIT
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+# JuXing-official-website.
+>>>>>>> bc77a9d4387872a19829b8de7df376975ec3be36
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 =======
 =======
 # JuXing-official-website.

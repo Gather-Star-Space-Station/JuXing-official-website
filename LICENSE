@@ -24,7 +24,12 @@
       "You" (or "Your") shall mean the individual or Legal Entity
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
       "You" (or "Your") shall mean the individual or Legal Entity
+=======
+      "You" (or "Your") shall mean an individual or Legal Entity
+>>>>>>> bc77a9d4387872a19829b8de7df376975ec3be36
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 =======
       "You" (or "Your") shall mean an individual or Legal Entity
 >>>>>>> bc77a9d4387872a19829b8de7df376975ec3be36
@@ -46,13 +51,19 @@
       copyright notice that is included in or attached to the work.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
       Object form, made available under this License, as indicated by a
       copyright notice that is included in or attached to the work.
 =======
+=======
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
       Object form, made available under the License, as indicated by a
       copyright notice that is included in or attached to the work
       (an example is provided in the Appendix below).
 >>>>>>> bc77a9d4387872a19829b8de7df376975ec3be36
+<<<<<<< HEAD
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
+=======
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 
       "Derivative Works" shall mean any work, whether in Source or Object
@@ -62,13 +73,19 @@
       represent, as a whole, an original work of authorship.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
       represent, as a whole, an original work of authorship.
 =======
+=======
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
       represent, as a whole, an original work of authorship. For the purposes
       of this License, Derivative Works shall not include works that remain
       separable from, or merely link (or bind by name) to the interfaces of,
       the Work and Derivative Works thereof.
 >>>>>>> bc77a9d4387872a19829b8de7df376975ec3be36
+<<<<<<< HEAD
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
+=======
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 
       "Contribution" shall mean any work of authorship, including
@@ -82,12 +99,15 @@
       on behalf of whom a Contribution has been received and incorporated.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
       submitted for inclusion in the Work by the copyright owner
       or authorized individuals on behalf of the copyright owner.
 
       "Contributor" shall mean the Licensor and any individual or Legal Entity
       on behalf of whom a Contribution has been received and incorporated.
 =======
+=======
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
       submitted to Licensor for inclusion in the Work by the copyright owner
       or by an individual or Legal Entity authorized to submit on behalf of
       the copyright owner. For the purposes of this definition, "submitted"
@@ -103,6 +123,9 @@
       on behalf of whom a Contribution has been received by Licensor and
       subsequently incorporated within the Work.
 >>>>>>> bc77a9d4387872a19829b8de7df376975ec3be36
+<<<<<<< HEAD
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
+=======
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 
    2. Grant of Copyright License. Subject to the terms and conditions of
@@ -120,9 +143,12 @@
       and otherwise transfer the Work.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
       patent license to make, have made, use, offer to sell, sell, import,
       and otherwise transfer the Work.
 =======
+=======
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
       (except as stated in this section) patent license to make, have made,
       use, offer to sell, sell, import, and otherwise transfer the Work,
       where such license applies only to those patent claims licensable
@@ -136,6 +162,9 @@
       granted to You under this License for that Work shall terminate
       as of the date such litigation is filed.
 >>>>>>> bc77a9d4387872a19829b8de7df376975ec3be36
+<<<<<<< HEAD
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
+=======
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 
    4. Redistribution. You may reproduce and distribute copies of the
@@ -145,9 +174,45 @@
 
 <<<<<<< HEAD
       (a) You must give any other recipients a copy of this License; and
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
       (a) You must give any other recipients a copy of this License; and
+=======
+
+      (b) You must cause modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work.
+
+      (d) If the Work includes a "NOTICE" file, You must include the
+          attribution notices in Derivative Works as prescribed.
+
+   5. Submission of Contributions. Unless explicitly stated otherwise,
+      any Contribution submitted for inclusion in the Work shall be
+      licensed under this License, with no additional terms or conditions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor.
+
+   7. Disclaimer of Warranty. The Work is provided "AS IS" WITHOUT WARRANTIES
+      OR CONDITIONS OF ANY KIND, either express or implied.
+
+   8. Limitation of Liability. No Contributor shall be liable for any
+      direct, indirect, incidental, special, exemplary, or consequential damages.
+
+   9. Accepting Warranty or Additional Liability. You may offer warranty,
+      support, or liability obligations only on Your own behalf and
+      at Your sole responsibility.
+
+   END OF TERMS AND CONDITIONS
+
+   Copyright 2026 聚星数据知识产权有限公司
+=======
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 
       (b) You must cause modified files to carry prominent notices
           stating that You changed the files; and
@@ -227,6 +292,9 @@
 
    Copyright [yyyy] [name of copyright owner]
 >>>>>>> bc77a9d4387872a19829b8de7df376975ec3be36
+<<<<<<< HEAD
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
+=======
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -243,7 +311,12 @@
    limitations under the License.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
    limitations under the License.
+=======
+   limitations under the License.
+>>>>>>> bc77a9d4387872a19829b8de7df376975ec3be36
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 =======
    limitations under the License.
 >>>>>>> bc77a9d4387872a19829b8de7df376975ec3be36

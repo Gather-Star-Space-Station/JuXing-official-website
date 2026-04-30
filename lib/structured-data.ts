@@ -3,6 +3,7 @@ export function generateOrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "聚星数据知识产权有限公司",
     url: "https://juxingip.com",
     logo: "https://juxingip.com/logo.png",
@@ -13,6 +14,8 @@ export function generateOrganizationSchema() {
       addressRegion: "广东省",
       streetAddress: "天河区",
 =======
+=======
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
     name: "企业官网",
     url: "https://example.com",
     logo: "https://example.com/logo.png",
@@ -21,11 +24,15 @@ export function generateOrganizationSchema() {
       "@type": "PostalAddress",
       addressLocality: "北京市",
       addressRegion: "朝阳区",
+<<<<<<< HEAD
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
+=======
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
       addressCountry: "CN",
     },
     contactPoint: {
       "@type": "ContactPoint",
+<<<<<<< HEAD
 <<<<<<< HEAD
       telephone: "+86-180-7274-0873",
       contactType: "customer service",
@@ -34,6 +41,8 @@ export function generateOrganizationSchema() {
     sameAs: [
       "https://weixin.qq.com",
 =======
+=======
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
       telephone: "+86-400-123-4567",
       contactType: "customer service",
       email: "contact@example.com",
@@ -41,6 +50,9 @@ export function generateOrganizationSchema() {
     sameAs: [
       "https://github.com",
       "https://twitter.com",
+<<<<<<< HEAD
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
+=======
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
     ],
   };
@@ -66,15 +78,21 @@ export function generateArticleSchema(article: {
     publisher: {
       "@type": "Organization",
 <<<<<<< HEAD
+<<<<<<< HEAD
       name: "聚星数据知识产权有限公司",
       logo: {
         "@type": "ImageObject",
         url: "https://juxingip.com/logo.png",
 =======
+=======
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
       name: "企业官网",
       logo: {
         "@type": "ImageObject",
         url: "https://example.com/logo.png",
+<<<<<<< HEAD
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
+=======
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
       },
     },
@@ -96,7 +114,11 @@ export function generateProductSchema(product: {
     brand: {
       "@type": "Brand",
 <<<<<<< HEAD
+<<<<<<< HEAD
       name: "聚星数据知识产权有限公司",
+=======
+      name: "企业官网",
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 =======
       name: "企业官网",
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243

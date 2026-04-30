@@ -11,9 +11,14 @@ const navItems = [
   { href: "/", label: "首页" },
   { href: "/about", label: "关于我们" },
 <<<<<<< HEAD
+<<<<<<< HEAD
   { href: "/products", label: "知识产权服务" },
   { href: "/products#compliance", label: "数据合规服务" },
   { href: "/products#cases", label: "成功案例" },
+=======
+  { href: "/products", label: "产品服务" },
+  { href: "/blog", label: "新闻动态" },
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 =======
   { href: "/products", label: "产品服务" },
   { href: "/blog", label: "新闻动态" },
@@ -34,7 +39,11 @@ export function Header() {
             className="text-xl font-bold text-[#0F172A] transition-colors hover:text-[#0369A1]"
           >
 <<<<<<< HEAD
+<<<<<<< HEAD
             聚星数据知识产权
+=======
+            企业官网
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 =======
             企业官网
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
@@ -56,7 +65,11 @@ export function Header() {
           {/* Desktop CTA */}
           <div className="hidden md:block">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Button size="sm">商务合作</Button>
+=======
+            <Button size="sm">联系销售</Button>
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 =======
             <Button size="sm">联系销售</Button>
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
@@ -91,7 +104,11 @@ export function Header() {
             ))}
             <Button size="sm" className="w-full">
 <<<<<<< HEAD
+<<<<<<< HEAD
               商务合作
+=======
+              联系销售
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 =======
               联系销售
 >>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
