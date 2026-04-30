@@ -10,8 +10,9 @@ import { cn } from "@/lib/utils"
 const navItems = [
   { href: "/", label: "首页" },
   { href: "/about", label: "关于我们" },
-  { href: "/products", label: "产品服务" },
-  { href: "/blog", label: "新闻动态" },
+  { href: "/products", label: "知识产权服务" },
+  { href: "/products#compliance", label: "数据合规服务" },
+  { href: "/products#cases", label: "成功案例" },
   { href: "/contact", label: "联系我们" },
 ]
 
@@ -27,7 +28,7 @@ export function Header() {
             href="/"
             className="text-xl font-bold text-[#0F172A] transition-colors hover:text-[#0369A1]"
           >
-            企业官网
+            聚星数据知识产权
           </Link>
 
           {/* Desktop Navigation */}
@@ -45,7 +46,7 @@ export function Header() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Button size="sm">联系销售</Button>
+            <Button size="sm">商务合作</Button>
           </div>
 
           {/* Mobile menu button */}
@@ -76,7 +77,7 @@ export function Header() {
               </Link>
             ))}
             <Button size="sm" className="w-full">
-              联系销售
+              商务合作
             </Button>
           </nav>
         </div>

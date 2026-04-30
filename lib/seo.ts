@@ -1,12 +1,12 @@
 import { Metadata } from "next";
 
 export const siteConfig = {
-  name: "企业官网",
-  description: "我们提供专业的产品和服务，致力于为客户创造价值",
-  url: "https://example.com",
-  ogImage: "https://example.com/og.jpg",
+  name: "聚星数据知识产权有限公司",
+  description: "专注数据知识产权确权、数据合规、知识产权布局与维权服务，为企业数据资产提供专业法律与技术支撑",
+  url: "https://juxingip.com",
+  ogImage: "https://juxingip.com/og.jpg",
   links: {
-    github: "https://github.com",
+    github: "",
   },
 };
 

@@ -2,25 +2,25 @@ export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "企业官网",
-    url: "https://example.com",
-    logo: "https://example.com/logo.png",
-    description: "我们提供专业的产品和服务，致力于为客户创造价值",
+    name: "聚星数据知识产权有限公司",
+    url: "https://juxingip.com",
+    logo: "https://juxingip.com/logo.png",
+    description: "专注数据知识产权确权、数据合规、知识产权布局与维权服务，为企业数据资产提供专业法律与技术支撑",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "北京市",
-      addressRegion: "朝阳区",
+      addressLocality: "广州市",
+      addressRegion: "广东省",
+      streetAddress: "天河区",
       addressCountry: "CN",
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+86-400-123-4567",
+      telephone: "+86-180-7274-0873",
       contactType: "customer service",
-      email: "contact@example.com",
+      email: "2787326121@qq.com",
     },
     sameAs: [
-      "https://github.com",
-      "https://twitter.com",
+      "https://weixin.qq.com",
     ],
   };
 }
@@ -44,10 +44,10 @@ export function generateArticleSchema(article: {
     },
     publisher: {
       "@type": "Organization",
-      name: "企业官网",
+      name: "聚星数据知识产权有限公司",
       logo: {
         "@type": "ImageObject",
-        url: "https://example.com/logo.png",
+        url: "https://juxingip.com/logo.png",
       },
     },
     url: article.url,
@@ -67,7 +67,7 @@ export function generateProductSchema(product: {
     url: product.url,
     brand: {
       "@type": "Brand",
-      name: "企业官网",
+      name: "聚星数据知识产权有限公司",
     },
   };
 }

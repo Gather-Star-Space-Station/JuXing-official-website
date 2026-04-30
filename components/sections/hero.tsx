@@ -30,22 +30,22 @@ export function Hero() {
           >
             <div className="inline-flex items-center gap-2 rounded-full border border-[#0369A1]/20 bg-[#0369A1]/5 px-4 py-2 text-sm font-medium text-[#0369A1]">
               <Shield className="h-4 w-4" />
-              <span>值得信赖的企业级解决方案提供商</span>
+              <span>专业数据知识产权服务提供商</span>
             </div>
           </motion.div>
 
           {/* 主标题 - Poppins 字体 */}
           <h1 className="mb-6 text-center text-5xl font-bold leading-tight tracking-tight text-[#0F172A] md:text-6xl lg:text-7xl">
-            专业的解决方案
+            数据有价 · 知识产权有方
             <br />
-            <span className="text-[#0369A1]">助力企业数据化管理</span>
+            <span className="text-[#0369A1]">为企业数据价值保驾护航</span>
           </h1>
 
           {/* 副标题 - Open Sans 字体 */}
           <p className="mb-10 text-center text-xl leading-relaxed text-[#334155] md:text-2xl">
-            我们致力于为客户提供高质量的产品和服务
+            聚星数据知识产权，专注企业数据资产确权、知识产权布局
             <br className="hidden sm:block" />
-            以专业技术和丰富经验，共创美好未来
+            数据合规风控与维权服务，为企业数据价值保驾护航
           </p>
 
           {/* CTA 按钮 - Enterprise Gateway 模式 */}
@@ -59,11 +59,11 @@ export function Hero() {
               size="lg"
               className="group shadow-lg shadow-[#0369A1]/20 transition-all hover:shadow-xl hover:shadow-[#0369A1]/30"
             >
-              联系销售团队
+              立即咨询
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Button>
             <Button size="lg" variant="secondary">
-              查看解决方案
+              获取方案
             </Button>
           </motion.div>
 
@@ -76,18 +76,18 @@ export function Hero() {
           >
             <div className="flex flex-col items-center gap-2 rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
               <Users className="h-8 w-8 text-[#0369A1]" />
-              <div className="text-3xl font-bold text-[#0F172A]">500+</div>
-              <div className="text-sm text-[#334155]">企业客户信赖</div>
+              <div className="text-3xl font-bold text-[#0F172A]">200+</div>
+              <div className="text-sm text-[#334155]">服务企业</div>
             </div>
             <div className="flex flex-col items-center gap-2 rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
               <Award className="h-8 w-8 text-[#0369A1]" />
-              <div className="text-3xl font-bold text-[#0F172A]">98%</div>
-              <div className="text-sm text-[#334155]">客户满意度</div>
+              <div className="text-3xl font-bold text-[#0F172A]">1000+</div>
+              <div className="text-sm text-[#334155]">知识产权案件经验</div>
             </div>
             <div className="flex flex-col items-center gap-2 rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
               <Shield className="h-8 w-8 text-[#0369A1]" />
-              <div className="text-3xl font-bold text-[#0F172A]">7x24</div>
-              <div className="text-sm text-[#334155]">专业技术支持</div>
+              <div className="text-3xl font-bold text-[#0F172A]">2+ 年</div>
+              <div className="text-sm text-[#334155]">专业服务年限</div>
             </div>
           </motion.div>
         </motion.div>
