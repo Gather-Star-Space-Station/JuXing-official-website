@@ -6,12 +6,18 @@ import { constructMetadata } from "@/lib/seo";
 import { ArrowRight } from "lucide-react";
 
 export const metadata = constructMetadata({
+<<<<<<< HEAD
   title: "知识产权服务",
   description: "聚星数据知识产权提供数据确权、知识产权申请、数据合规、维权诉讼等全方位服务",
+=======
+  title: "产品服务",
+  description: "了解我们提供的专业产品和服务",
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 });
 
 const products = [
   {
+<<<<<<< HEAD
     id: "rights",
     title: "数据知识产权确权",
     description: "数据资产权属界定、数据作品著作权登记、数据库知识产权保护，确保企业数据资产合法归属",
@@ -40,6 +46,30 @@ const products = [
     title: "企业知识产权顾问",
     description: "常年知识产权顾问、风险预警、合规培训，提供专业持续的法律支撑",
     features: ["常年法律顾问", "风险预警", "合规培训", "战略咨询"],
+=======
+    id: "1",
+    title: "企业管理系统",
+    description: "全面的企业资源管理解决方案，提升运营效率",
+    features: ["流程自动化", "数据分析", "多端同步"],
+  },
+  {
+    id: "2",
+    title: "客户关系管理",
+    description: "智能化的客户管理工具，提升客户满意度",
+    features: ["客户画像", "销售跟进", "数据报表"],
+  },
+  {
+    id: "3",
+    title: "数据分析平台",
+    description: "强大的数据分析能力，助力业务决策",
+    features: ["实时分析", "可视化报表", "预测模型"],
+  },
+  {
+    id: "4",
+    title: "移动办公应用",
+    description: "随时随地办公，提升团队协作效率",
+    features: ["即时通讯", "任务管理", "文件共享"],
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
   },
 ];
 
@@ -50,10 +80,17 @@ export default function ProductsPage() {
         <Container>
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="mb-6 text-4xl font-bold text-gray-900 md:text-5xl">
+<<<<<<< HEAD
               知识产权服务
             </h1>
             <p className="text-lg text-gray-600">
               为企业提供数据确权、布局、合规、维权一站式解决方案
+=======
+              产品服务
+            </h1>
+            <p className="text-lg text-gray-600">
+              为企业提供全方位的数字化解决方案
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
             </p>
           </div>
         </Container>
@@ -76,9 +113,15 @@ export default function ProductsPage() {
                     </li>
                   ))}
                 </ul>
+<<<<<<< HEAD
                 <Link href={`/contact`}>
                   <Button variant="outline" size="sm">
                     立即咨询
+=======
+                <Link href={`/products/${product.id}`}>
+                  <Button variant="outline" size="sm">
+                    了解详情
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
@@ -87,6 +130,7 @@ export default function ProductsPage() {
           </div>
         </Container>
       </section>
+<<<<<<< HEAD
 
       <section id="cases" className="bg-gray-50 py-20">
         <Container>
@@ -130,6 +174,8 @@ export default function ProductsPage() {
           </div>
         </Container>
       </section>
+=======
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
     </>
   );
 }

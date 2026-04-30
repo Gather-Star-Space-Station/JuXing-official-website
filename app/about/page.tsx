@@ -4,6 +4,7 @@ import { constructMetadata } from "@/lib/seo";
 
 export const metadata = constructMetadata({
   title: "关于我们",
+<<<<<<< HEAD
   description: "了解聚星数据知识产权有限公司的专业团队、发展历程和核心优势",
 });
 
@@ -19,6 +20,16 @@ const advantages = [
   { title: "数据知识产权全流程服务", description: "从确权、申请到维权，提供一站式服务" },
   { title: "企业级数字化管理系统支撑", description: "自主研发管理系统，服务高效可追溯" },
   { title: "丰富跨境与数据合规经验", description: "服务覆盖多个行业，跨境合规能力强" },
+=======
+  description: "了解我们的公司、团队和发展历程",
+});
+
+const team = [
+  { name: "张三", role: "CEO", description: "10年行业经验" },
+  { name: "李四", role: "CTO", description: "技术专家" },
+  { name: "王五", role: "产品总监", description: "产品设计专家" },
+  { name: "赵六", role: "运营总监", description: "市场营销专家" },
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
 ];
 
 export default function AboutPage() {
@@ -31,7 +42,11 @@ export default function AboutPage() {
               关于我们
             </h1>
             <p className="text-lg text-gray-600">
+<<<<<<< HEAD
               专注数据知识产权服务领域，让企业数据资产合法、安全、可增值
+=======
+              我们是一家专注于为企业提供专业解决方案的公司，致力于通过技术创新帮助客户实现业务目标
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
             </p>
           </div>
         </Container>
@@ -43,14 +58,23 @@ export default function AboutPage() {
             <h2 className="mb-4 text-3xl font-bold text-gray-900">公司介绍</h2>
             <div className="space-y-4 text-gray-600">
               <p>
+<<<<<<< HEAD
                 聚星数据知识产权有限公司，专注于数据知识产权服务领域，依托专业法律与技术团队，为企业提供从数据资产确权、知识产权申请、合规审查到维权诉讼的全链条服务。
               </p>
               <p>
                 公司深耕知识产权与数据合规多年，服务覆盖科创企业、制造业、跨境电商等多个领域，致力于让企业数据资产合法、安全、可增值。
+=======
+                成立于2020年，我们始终坚持以客户为中心，提供高质量的产品和服务。
+              </p>
+              <p>
+                我们的团队由经验丰富的专业人士组成，在各自领域都有深厚的积累。
+                通过不断创新和优化，我们帮助众多企业实现了数字化转型。
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
               </p>
             </div>
           </div>
 
+<<<<<<< HEAD
           <div className="mb-16">
             <h2 className="mb-8 text-3xl font-bold text-gray-900">核心优势</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -65,11 +89,17 @@ export default function AboutPage() {
             </div>
           </div>
 
+=======
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
           <div>
             <h2 className="mb-8 text-3xl font-bold text-gray-900">核心团队</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
               {team.map((member) => (
+<<<<<<< HEAD
                 <Card key={member.name} className="text-center p-6">
+=======
+                <Card key={member.name} className="text-center">
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
                   <div className="mb-4 flex h-24 w-24 mx-auto items-center justify-center rounded-full bg-blue-100 text-2xl font-bold text-blue-600">
                     {member.name[0]}
                   </div>

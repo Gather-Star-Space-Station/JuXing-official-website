@@ -38,7 +38,11 @@ export default function ContactPage() {
               联系我们
             </h1>
             <p className="text-lg text-gray-600">
+<<<<<<< HEAD
               专注数据知识产权服务，欢迎随时与我们联系咨询
+=======
+              有任何问题或需求，欢迎随时与我们联系
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
             </p>
           </div>
         </Container>
@@ -56,10 +60,17 @@ export default function ContactPage() {
                   <div className="flex items-start gap-4">
                     <Phone className="h-6 w-6 text-blue-600" />
                     <div>
+<<<<<<< HEAD
                   <h3 className="mb-1 font-semibold text-gray-900">电话</h3>
                   <p className="text-gray-600">18072740873</p>
                   <p className="text-sm text-gray-500">工作日 9:00-18:00</p>
                 </div>
+=======
+                      <h3 className="mb-1 font-semibold text-gray-900">电话</h3>
+                      <p className="text-gray-600">400-123-4567</p>
+                      <p className="text-sm text-gray-500">工作日 9:00-18:00</p>
+                    </div>
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
                   </div>
                 </Card>
 
@@ -68,7 +79,11 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-blue-600" />
                     <div>
                       <h3 className="mb-1 font-semibold text-gray-900">邮箱</h3>
+<<<<<<< HEAD
                       <p className="text-gray-600">2787326121@qq.com</p>
+=======
+                      <p className="text-gray-600">contact@example.com</p>
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
                       <p className="text-sm text-gray-500">24小时内回复</p>
                     </div>
                   </div>
@@ -79,8 +94,13 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6 text-blue-600" />
                     <div>
                       <h3 className="mb-1 font-semibold text-gray-900">地址</h3>
+<<<<<<< HEAD
                       <p className="text-gray-600">广东省广州市天河区</p>
                       <p className="text-sm text-gray-500">欢迎预约咨询</p>
+=======
+                      <p className="text-gray-600">北京市朝阳区某某大厦</p>
+                      <p className="text-sm text-gray-500">欢迎预约参观</p>
+>>>>>>> 73f09a0092d748ebeafc9357cd25f70301605243
                     </div>
                   </div>
                 </Card>
